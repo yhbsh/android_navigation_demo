@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         final Button navigateButton = findViewById(R.id.btnNavigate);
         navigateButton.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+            Intent intent = new Intent(this, SecondActivity.class);
             startActivity(intent);
         });
     }
