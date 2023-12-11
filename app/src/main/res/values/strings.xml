@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">navigation_demo</string>
+    <string name="navigate">Navigate</string>
+    <string name="back">Back</string>
+</resources>
